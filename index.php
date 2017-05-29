@@ -7,7 +7,7 @@ include 'function.php';
 <!DOCTYPE html>
 <html>
 <head>
-    <title>zilekameni</title>
+    <title>ZileKameni</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
