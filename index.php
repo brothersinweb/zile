@@ -1,8 +1,14 @@
+<?php
+include 'db.php';
+include 'function.php';
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Blank Standard HTML5 Web App Template</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>zilekameni</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
     <style>
@@ -15,24 +21,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
 <body>
-<header>
-<?php 
-    if($_SESSON['id'] = 1){
-        echo'
-        <div>
-        <form action="index.html">
-            <button >Logout</button>
-        </form>
-        </div>';    
-    }else{
-        
-    }
-    ?>
-    
 
-    
+<?php 
+  if (isset($_SESSION['id'])) {
+          echo'
+        <div>
+        <form method="POST" action="'.adminLogout().'">
+            <button type="logoutSubmit" id="logout">Logout</button>
+        </form>
+        </div>'; 
+    }else{      
+        echo 'jedi govna nisi ulogovan!';
+    }
+     
+    ?>
+<header> 
     <div class="logo">
-            <a href="index.html"><img src="slike/Logo-ZK/Logo-ZKpng.png" alt="logo zile kameni"/></a>
+            <a href="index.php"><img src="slike/Logo-ZK/Logo-ZKpng.png" alt="logo zile kameni"/></a>
         </div>
     
     <div class="top-left">
@@ -40,7 +45,7 @@
     </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Pocetna</a></li>
+                    <li><a href="index.php">Pocetna</a></li>
                     <li><a href="#">O nama</a></li>
                     <li><a href="#">Sta radimo</a></li>
                     <li><a href="galerija.html">Galerija</a></li>
@@ -67,6 +72,13 @@
                     gserg sertghs thsrthgser gswthdhbst hsret hg
                     es sghser hgserh sertgserg ser
                     gw erg serg ser...</p>
+
+<?php 
+      if ($_SESSION['id']=1) {
+          echo '<button type="submit" name="edit">Edit</button>';
+                }
+?>
+
             </div>
         </div>
     </aside>

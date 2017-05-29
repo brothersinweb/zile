@@ -1,31 +1,23 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','','zile');
-
-if(!$conn){
-	die("konekcija ne uspela!");
-
-}
-
+include 'db.php';
 
 	if (isset($_POST['loginSubmit'])) {
 		$uid = $_POST['uid'];
 		$pwd = $_POST['pwd'];
 		$sql = "SELECT * FROM admin WHERE uid = '$uid' AND pwd = '$pwd'";
 		$result = mysqli_query($conn,$sql);
-        
+
 		if (mysqli_num_rows($result) > 0) {
 			if($row = $result->fetch_assoc()) {
 				    $_SESSION['id'] = $row['id'];
-					echo 'ulogovan';
-                    #header("Location:index.php?loginsuccess");
-					exit();
-			
-		}
+                   	header("Location:index.php?loginsucces!");
+                    exit();
+            }		
 		}else{
-			#header("Location:index.php?loginfaeild");
-			#exit();
-            echo 'uspesno';
+             echo 'Pogresan username ili password !<br/><br/>';
+          
+           
 		}
 	}		
 
@@ -36,8 +28,8 @@ if(!$conn){
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Admin</title>
-    <link rel="stylesheet" type="text/css" href="">
+    <title>Blank Standard HTML5 Web App Template</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
     <style>
@@ -50,12 +42,12 @@ if(!$conn){
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
 <body>
-    <form>
+    <form method="POST" action="admin-log.php">
         <label for="usernam">Username:</label><br/>
         <input type="text" name="uid" placeholder="Username"/><br/>
         <label for="password">Password:</label><br/>
-        <input type="password" name="pwd" placeholder="Pasword"/><br/><br/>
-        <input type="submit" name="loginSubmit" value="Submit">    
-    </form>
+        <input type="password" name="pwd" placeholder="Pasword"/><br/><br/> 
+        <button type="submit" name="loginSubmit">Submit</button>
+   </form>
 </body>
 </html>
