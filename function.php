@@ -1,5 +1,5 @@
 <?php
-
+/*======================PROBA===================================*/
 function adminLogout(){
 	if(isset($_POST['logoutSubmit'])){
 		session_start();
