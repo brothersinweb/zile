@@ -1,3 +1,5 @@
+/*aslkjhdfjbasnkldmfasdf*/
+
 <?php
 
 $conn = mysqli_connect('localhost','root','','zile');
