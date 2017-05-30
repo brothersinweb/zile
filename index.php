@@ -2,7 +2,7 @@
 include 'db.php';
 include 'function.php';
 include 'logout.php';
-   
+   session_start();
 ?>
 
 <!DOCTYPE html>
@@ -22,20 +22,19 @@ include 'logout.php';
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
 <body>
-
+    
 <?php 
-  if (!isset($_SESSION['id'])) {
-           echo 'nisi ulogovan';
-           exit();
-    }else{      
-       echo'<div>
-        <form method="POST" action="index.php">
-            <button type="Submit" name="logoutSubmit" id="logout">Logout</button>
-        </form>
-        </div>'; 
-    }
-    ?>
+    /*NESTO NIJE KAKO TREBA*/
+ if (isset($_SESSION['id'])) {
+     echo "<form method='POST' action='index.php>
+                <input type='submit' name='logout' value='Logout'/>
+            </form>";
+ }
+    
+?>
+
 <header> 
+
     <div class="logo">
             <a href="index.php"><img src="slike/Logo-ZK/Logo-ZKpng.png" alt="logo zile kameni"/></a>
         </div>
@@ -73,11 +72,7 @@ include 'logout.php';
                     es sghser hgserh sertgserg ser
                     gw erg serg ser...</p>
 
-<?php 
-      if ($_SESSION['id']=1) {
-          echo '<button type="submit" name="edit">Edit</button>';
-                }
-?>
+
 
             </div>
         </div>
