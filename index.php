@@ -31,7 +31,7 @@ include 'function.php';
         </form>
         </div>'; 
     }else{      
-        echo 'jedi govna nisi ulogovan!';
+        exit();
     }
      
     ?>
