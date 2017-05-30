@@ -26,7 +26,12 @@ include 'function.php';
   if (!isset($_SESSION['id'])) {
            exit();
     }else{      
-      
+       echo'
+        <div>
+        <form method="POST" action="'.adminLogout().'">
+            <button type="logoutSubmit" id="logout">Logout</button>
+        </form>
+        </div>'; 
     }
      
     ?>
@@ -35,7 +40,7 @@ include 'function.php';
             <a href="index.php"><img src="slike/Logo-ZK/Logo-ZKpng.png" alt="logo zile kameni"/></a>
         </div>
     
-    <div class="top-left">
+    <div class="top-right">
         <h1>ZileKameni</h1>
     </div>
             <nav>
