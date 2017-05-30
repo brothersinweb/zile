@@ -1,7 +1,8 @@
 <?php
 include 'db.php';
 include 'function.php';
-    session_start();
+include 'logout.php';
+   
 ?>
 
 <!DOCTYPE html>
@@ -24,16 +25,15 @@ include 'function.php';
 
 <?php 
   if (!isset($_SESSION['id'])) {
+           echo 'nisi ulogovan';
            exit();
     }else{      
-       echo'
-        <div>
-        <form method="POST" action="'.adminLogout().'">
-            <button type="logoutSubmit" id="logout">Logout</button>
+       echo'<div>
+        <form method="POST" action="index.php">
+            <button type="Submit" name="logoutSubmit" id="logout">Logout</button>
         </form>
         </div>'; 
     }
-     
     ?>
 <header> 
     <div class="logo">
