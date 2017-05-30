@@ -23,15 +23,10 @@ include 'function.php';
 <body>
 
 <?php 
-  if (isset($_SESSION['id'])) {
-          echo'
-        <div>
-        <form method="POST" action="'.adminLogout().'">
-            <button type="logoutSubmit" id="logout">Logout</button>
-        </form>
-        </div>'; 
+  if (!isset($_SESSION['id'])) {
+           exit();
     }else{      
-        exit();
+      
     }
      
     ?>
