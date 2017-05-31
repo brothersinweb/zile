@@ -2,60 +2,20 @@
 include 'db.php';
 include 'function.php';
 session_start();
- 
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>ZileKameni</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
-    <style>
-        /* following two viewport lines are equivalent to meta viewport statement above, and is needed for Windows */
-        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
-        @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
-        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
-        /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
-    </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="index.js"></script>
-<body>
-    
+<?php include 'header.html'; ?>
+
+<body>    
 <?php 
     /*NESTO NIJE KAKO TREBA*/
  if (isset($_SESSION['id'])) {
     echo  "<form method='POST' action='".userLogout()."'>
         <button type='text' name='logoutSubmit'>Logout</button>
         </form>";     
- }
-    
+ }  
 ?>
-
-<header> 
-
-    <div class="logo">
-            <a href="index.php"><img src="slike/Logo-ZK/Logo-ZKpng.png" alt="logo zile kameni"/></a>
-        </div>
-    
-    <div class="top-right">
-        <h1>ZileKameni</h1>
-    </div>
-            <nav>
-                <ul>
-                    <li><a href="index.php">Pocetna</a></li>
-                    <li><a href="#">O nama</a></li>
-                    <li><a href="#">Sta radimo</a></li>
-                    <li><a href="galerija.html">Galerija</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                    <li><a href="#">Izdvajamo</a></li>
-                    <li><a href="#">Novosti</a></li>
-                </ul>
-            </nav>
-</header>
-    
-    <aside id="aside">
+     <aside id="aside">
         <div class="aside-right"><label>Zanimljivo</label>
             <div>
                 <p>tkuhgkibhkijhbliuhbib b bkjb
