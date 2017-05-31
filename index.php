@@ -26,12 +26,9 @@ session_start();
 <?php 
     /*NESTO NIJE KAKO TREBA*/
  if (isset($_SESSION['id'])) {
-     echo 
-        "<form method='POST' action='".userLogout()."'>
+    echo  "<form method='POST' action='".userLogout()."'>
         <button type='text' name='logoutSubmit'>Logout</button>
-        </form>";    
- }else {
-    echo 'duvaj ga';
+        </form>";     
  }
     
 ?>
