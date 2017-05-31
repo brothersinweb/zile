@@ -1,10 +1,13 @@
 body {
     padding: 0;
     margin: 0;
+    background:url('../slike/kamenleft.png');
+
 }
 
 * {
     box-sizing: border-box;
+
 }
 
 #logout{
@@ -59,7 +62,6 @@ nav ul{
 nav ul li{
     list-style: none;
     display: inline;
-    
     cursor: pointer;
 }
 
@@ -80,14 +82,15 @@ nav ul li a:hover{
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    background: rgba(230,230,230,1);
-    box-shadow: 15px -10px 25px #808080;
+    box-shadow: -25px -15px 30px #000;
     box-sizing: border-box;
     z-index: 1000;
     position: relative
 }
 
 #mid-div{
+
+
     height: 150px;
     widows: 100%;
     background-color: black;
