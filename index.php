@@ -1,8 +1,8 @@
 <?php
 include 'db.php';
 include 'function.php';
-include 'logout.php';
-   session_start();
+session_start();
+ 
 ?>
 
 <!DOCTYPE html>
@@ -26,9 +26,12 @@ include 'logout.php';
 <?php 
     /*NESTO NIJE KAKO TREBA*/
  if (isset($_SESSION['id'])) {
-     echo "<form method='POST' action='index.php>
-                <input type='submit' name='logout' value='Logout'/>
-            </form>";
+     echo 
+        "<form method='POST' action='".userLogout()."'>
+        <button type='text' name='logoutSubmit'>Logout</button>
+        </form>";    
+ }else {
+    echo 'duvaj ga';
  }
     
 ?>
