@@ -39,7 +39,7 @@ session_start();
     <div id="container">
         <h2>neki text</h2>
         <p style="font-size: 1.5em;word-wrap: break-word;margin-left: 22px;overflow: hidden;">
-        <img src="slike/zile/svasta/svasta30.jpg" alt="Zid uz reku" style="width:300px; position:relative; float: right;margin: 10px;border-radius: 10px;"/>
+        <img src="slike/zile/svasta/svasta30.jpg" alt="Zid uz reku" style="width:300px; position:relative; float: right;margin: 20px;border-radius: 10px;"/>
         sadfsadfasdfasdfkjbhadsjkfngasfdjngoikadsfg
         asdfgljadsfn oiuhjofgihaosdf ohaosihef as
         fa ofhaoiurhfgoiauh fguah oerfjhaosduhfiauds fiaudhf

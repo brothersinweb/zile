@@ -77,7 +77,7 @@ nav ul li a:hover{
 
 
 #container{
-    width:50%;
+    width:60%;
     height: 800px;
     margin: 0 auto;
     margin-top: 10px;
@@ -92,7 +92,7 @@ nav ul li a:hover{
 
 
     height: 150px;
-    widows: 100%;
+    width: 100%;
     background-color: black;
     margin: 55px 0;
 }
@@ -112,7 +112,7 @@ nav ul li a:hover{
     background: url(slike/poz3.jpg);
     float: right;
     margin-top: 20px;
-    margin-right: 5%;
+    margin-right: 2%;
     box-shadow: 15px -10px 25px #808080;
     overflow: hidden;
 }
