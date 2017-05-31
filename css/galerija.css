@@ -1,9 +1,13 @@
-
+.all-container{
+  width: 800px;
+  margin: auto;
+}
 
 .container {
   position: relative;
-  width: 25%;
-  margin: 15px;
+  width:246px; 
+  margin-left: 15px;
+  margin-top: 15px;
   display: inline-block;
 
 }
@@ -20,10 +24,11 @@
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: #606060;
   overflow: hidden;
   width: 100%;
   height:0;
+  opacity: .8;
   transition: .5s ease;
 }
 

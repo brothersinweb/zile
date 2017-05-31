@@ -32,22 +32,32 @@ session_start();
                     es sghser hgserh sertgserg ser
                     gw erg serg ser...</p>
 
-
-
             </div>
         </div>
     </aside>
     
     <div id="container">
         <h2>neki text</h2>
+        <p style="font-size: 1.5em;word-wrap: break-word;margin-left: 22px;overflow: hidden;">
+        <img src="slike/zile/svasta/svasta30.jpg" alt="Zid uz reku" style="width:300px; position:relative; float: right;margin: 10px;border-radius: 10px;"/>
+        sadfsadfasdfasdfkjbhadsjkfngasfdjngoikadsfg
+        asdfgljadsfn oiuhjofgihaosdf ohaosihef as
+        fa ofhaoiurhfgoiauh fguah oerfjhaosduhfiauds fiaudhf
+        aso dhfiauhreiufgabh idufh aiueehfioa hdeoiuf hia
+        aw sfhiauwhe filuahdfe uahode fhaoiedfm
+        7 aoef upoaiehjf iauhwef iuahweoi fawef
+         [aowefoi uhaefiluah eilufh aiwueh fiawueh fiauh efiauh ef
+          asw fhaiueh fliuahe fiuawhe fliua H</p>
+  
+            
     </div>
 
-     <aside id="">
+<!--     <aside id="">
         <div id="vidi-galeri">
-            <button onclick="galerija.html">Vidi galeriju >>></button>
+            <button onclick="galerija.php">Vidi galeriju >>></button>
         </div>
     </aside>
-    
+-->
         <div id="mid-div">
             <div id="mid-line"></div>
         </div>

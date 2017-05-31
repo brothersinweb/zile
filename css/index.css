@@ -59,16 +59,17 @@ nav ul{
 nav ul li{
     list-style: none;
     display: inline;
-    padding: 17px 25px 13px 25px;
+    
     cursor: pointer;
 }
 
-nav ul li a{
+nav ul a{
     color: aliceblue;
     font-size: 22px;
     text-decoration: none;
+    padding: 13px 25px 12px 25px;
 }
-nav ul li:hover{
+nav ul li a:hover{
      background: rgba(10, 10, 10, 0.7);
 }
 
@@ -89,7 +90,7 @@ nav ul li:hover{
 #mid-div{
     height: 150px;
     widows: 100%;
-    background: black;
+    background-color: black;
     margin: 55px 0;
 }
 
@@ -104,12 +105,13 @@ nav ul li:hover{
 
 #aside{
     width: 15%;
-    height: 500px;
+    height: 700px;
     background: url(slike/poz3.jpg);
     float: right;
     margin-top: 20px;
     margin-right: 5%;
     box-shadow: 15px -10px 25px #808080;
+    overflow: hidden;
 }
 
 .aside-right{
@@ -120,11 +122,10 @@ nav ul li:hover{
 }
 
 .aside-right label{
-   position:relative;
-    top: 15px;
+    margin-left: 25%;
     font-size: 22px;
     overflow: auto;
-}
+}   
 
 .aside-right p{
     text-indent: 20px;
