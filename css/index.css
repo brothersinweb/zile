@@ -85,16 +85,24 @@ nav ul li a:hover{
     box-shadow: -25px -15px 30px #000;
     box-sizing: border-box;
     z-index: 1000;
-    position: relative
+    position: relative;
+    overflow: hidden;
 }
 
 #mid-div{
-
 
     height: 150px;
     width: 100%;
     background-color: black;
     margin: 55px 0;
+}
+
+.soc{
+    position: relative;
+    height: 60px;
+    float: right;
+    margin-top: 45px;
+    margin-right: 25px;
 }
 
 #mid-line{
