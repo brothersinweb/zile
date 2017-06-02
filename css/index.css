@@ -164,16 +164,24 @@ header nav ul li a:hover{
 
 #Fleft{
     float: left;
-    width: 50%;
+    width: 33%;
     height: 280px;
     position:relative;
     background: rgba(30,30,30, 1);
     bottom: 0;
 }
-
+#Fmid{
+    width: 34%;
+    height: 280px;
+    background: rgba(30,30,30, 1);
+    position:absolute;
+    left: 33%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
 #Fright{
     float: right;
-    width: 50%;
+    width: 33%;
     height: 280px;
     position:relative;
     background: rgba(30,30,30, 1);
