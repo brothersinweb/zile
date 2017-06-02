@@ -1,5 +1,5 @@
 $(document).ready(function(){
         $('nav').hover(function(){
-        $('ul').slideToggle("fast","swing");
+        $('ul').slideToggle(100,"swing");
     });
 });
