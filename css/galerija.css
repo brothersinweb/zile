@@ -67,6 +67,11 @@
     float: left;
     margin: 5px 5px; 
 }
+
+.img-single li{
+    list-style: none;
+}
+
 .img-single img{
     width: 100%;
     height: 100%;

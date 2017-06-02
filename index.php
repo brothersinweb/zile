@@ -71,8 +71,6 @@ session_start();
     </div>
     
         
-    <footer>
-        
-    </footer>
+<?php include 'footer.html'; ?>
 </body>
 </html>
