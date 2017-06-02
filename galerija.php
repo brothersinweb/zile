@@ -25,7 +25,7 @@
     </div>
 
     <div class="container">
-      <a href="#"><img src="slike/zile/najveci-zid/zid23.jpg" alt="Zid" class="image">
+      <a href="najvecizid.php"><img src="slike/zile/najveci-zid/zid23.jpg" alt="Zid" class="image">
             <div class="overlay">
                 <div class="text">Najveci zid</div>
             </div> 
