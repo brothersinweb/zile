@@ -16,7 +16,7 @@ session_start();
  }  
 ?>
      <aside id="aside">
-        <div class="aside-right"><label>Zanimljivo</label>
+        <div class="aside-right"><label>vlado</label>
             <p>tkuhgkibhkijhbliuhbib b bkjb
                 khvjhjbnklmnbhygiujnkn
                 khbkjhbkbkjbkjhb
