@@ -1,4 +1,14 @@
 <?php include 'header.html'; ?>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    $(document).ready(function() {
+        $("img").click(function() {
+            $("img").show("slike/zile/crna-gora-kolasin-tara/cg1.jpg")
+
+        });
+   
+    });
+
+</script>
 <div class="all-container">
     <div class="container">
         <a href="#"><img src="slike/zile/crna-gora-kolasin-tara/cg1.jpg" alt="Kolasin-Tara" class="image">
