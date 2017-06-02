@@ -31,6 +31,7 @@ session_start();
                 es sghser hgserh sertgserg ser
                 gw erg serg ser...
                 milos
+                vlado kralj
             </p>
         </div>
     </aside>
