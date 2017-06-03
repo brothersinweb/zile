@@ -1,6 +1,4 @@
-<?php
-    require('kontakt/kontakt.php')
-?>
+
 
 <footer>
     <div id="Fleft">
@@ -24,28 +22,40 @@
 
 
 <?php
-/*ne radi slanje!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-/*MORA DA SE PROVERI ONLINE DA LI RADI SLANJE EMAIL-A*/
+include 'db.php';
+
     if(isset($_POST['submit'])){
         
         $name = $_POST['name'];
         $email = $_POST['email'];
         $message = $_POST['message'];
        if(empty($name)){
-           echo 'ime mora biti upisano!';
-       }else if(empty($email)){
-           echo'email mora biti upisan!';
-       }else if(empty($message)){
-           echo 'niste upisali poruku!';
+           echo '<script>alert("ime mora biti upisano!")</script>';
+           exit();
+           if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+               echo'<script>alert("Samo slova i razmak su dozvoljeni!")</script>';
+               exit();
+           }
+       }if(empty($email)){
+           echo'<script>alert("Email mora biti upisan!")</script>';
+           exit();
+          
+           if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+               echo "Invalid email format";
+               exit();
+            }
        }
-     
-}else {
+        
+        if(empty($message)){
+           echo '<script>alert("Niste upisali poruku!")</script>';
+           exit();
+       }
         $message = 'Name:' . $name . "\n"
             . 'Email:' . $email . "\n"
             . 'Poruka:' . $message;
-        mail('funkerkv@gmail.com', 'test', $message, 'From: ' .$email);
-        echo 'poslato';
-       # header('Location:index.php');
-    }
+        mail('funkerbot@hotmail.com', 'test', $message, 'From: ' .$email);
+        echo '<script> alert("poslato")</script>';
+     /*TREBA PROVERITI DA LI JE MAIL POSLAT*/
+}
 ?>
