@@ -5,10 +5,11 @@
 
 .container {
   position: relative;
-  width:246px; 
+  width:280px; 
   margin-left: 15px;
   margin-top: 15px;
   display: inline-block;
+   
 
 }
 
@@ -16,6 +17,7 @@
   display: block;
   width: 100%;
   height: auto;
+     border-radius: 50px;
 
 }
 
@@ -30,6 +32,7 @@
   height:0;
   opacity: .7;
   transition: .5s ease;
+     border-radius: 50px;
  
 }
 
@@ -62,16 +65,17 @@
 }
 
 .wrapper{
-    width: 85%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .img-single{
-    width: 180px;
-    height: 140px;
+    width: 250px;
+    height: 210px;
     position: relative;
     float: left;
-    margin: 5px 5px; 
+    margin: 10px 10px; 
+    
 }
 
 .img-single li{
@@ -83,20 +87,22 @@
     height: 100%;
     position: absolute;
     border: 1px solid black;
-    box-shadow: -8px -8px 8px black;
+    box-shadow: -8px -8px 15px black;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    transition: all 200ms ease-in-out;
-    -webkit-transition: all 200ms ease-in-out;
-    -o-transition: all 200ms ease-in-out;
-    -moz-transition: all 200ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    -webkit-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    border-radius: 50px;
 }
 
 .img-single:hover{
-    width: 180px;
+    width: 250px;
     z-index: 100; 
+    border-radius: 50px;
 }
 .img-single img:hover{
     width: 110%;
