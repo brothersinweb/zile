@@ -16,7 +16,7 @@ session_start();
  }  
 ?>
      <aside id="aside">
-        <div class="aside-right"><label>vlado</label>
+        <div class="aside-right"><label>Zanimljivo</label>
             <p>tkuhgkibhkijhbliuhbib b bkjb
                 khvjhjbnklmnbhygiujnkn
                 khbkjhbkbkjbkjhb
@@ -38,8 +38,9 @@ session_start();
     
     <div id="container">
         <h2>neki text</h2>
-        <p style="font-size: 1.5em;word-wrap: break-word;margin: 25px;overflow: hidden; text-align: right; line-height: 32px;">
+        <p style="font-size: 1.5em;word-wrap: break-word;margin: 35px;overflow: hidden; text-align: right; line-height: 32px;">
         <img src="slike/zile/svasta/svasta30.jpg" alt="Zid uz reku" style="width:300px; position:relative; float: right;margin: 20px;border-radius: 10px;"/>
+               <img src="slike/zile/najveci-zid/zid23.jpg" alt="Zid uz reku" style="width:300px; position:absolute; float: left;margin: 20px;border-radius: 10px;bottom:20px;left:0;"/>
         sadfsadfasdfasdfkjbhadsjkfngasfdjngoikadsfg
         asdfgljadsfn oiuhjofgihaosdf ohaosihef as
         fa ofhaoiurhfgoiauh fguah oerfjhaosduhfiauds fiaudhf
@@ -48,6 +49,18 @@ session_start();
         7 aoef upoaiehjf iauhwef iuahweoi fawef
          [aowefoi uhaefiluah eilufh aiwueh fiawueh fiauh efiauh ef
           asw fhaiueh fliuahe fiuawhe fliua H
+            asd
+            fasdf
+            asdfasdfa;lkjnfaoskjhfgoaskjnfga
+            sdfgasdkjfgnaskjngpasmnrfas
+            aspfgkanlsdkrngaplerngpaenrg
+            aspgnalorngaprngpaenrpg7
+            p[aeorjgloakenrgpanerpgnaprngpaerjmgf[aoejmr[gaerg
+            aep;rgjkpaeorjgpaerkgpoaekrgp[[oaekrgpsadf;lgkam]]]]]
+            laksrjgflakenmrgplaknrpgkifnaerg
+            asodngoaR GFAELERJN GAOIRJNFPOAIWJNRFGA
+            
+         
         </p>
     </div>
 
