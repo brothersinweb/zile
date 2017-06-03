@@ -59,3 +59,5 @@ include 'db.php';
      /*TREBA PROVERITI DA LI JE MAIL POSLAT*/
 }
 ?>
+
+</html>
