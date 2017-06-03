@@ -13,15 +13,15 @@
             <div class="wrapper">
                  <ul>               
                <div class="img-single">
-                   <a href="slike/zile/najveci-zid/zid2.jpg" data-lightbox="galerija"><img src="slike/zile/najveci-zid/zid2m.jpg" alt="potporni zid"></a>
+                   <a href="slike/zile/najveci-zid/zid2.jpg" data-lightbox="galerija"><img src="slike/zile/najveci-zid/zid2.jpg" alt="potporni zid"></a>
                 </div>
                 
                <div class="img-single">
-                    <a href="slike/zile/najveci-zid/zid3.jpg" data-lightbox="galerija"><img src="slike/zile/najveci-zid/zid3m.jpg" alt="potporni zid"></a>
+                    <a href="slike/zile/najveci-zid/zid3.jpg" data-lightbox="galerija"><img src="slike/zile/najveci-zid/zid3.jpg" alt="potporni zid"></a>
                 </div>
 
                <div class="img-single">
-                   <a href="slike/zile/najveci-zid/zid4.jpg" data-lightbox="galerija"> <img src="slike/zile/najveci-zid/zid4m.jpg" alt="potporni zid"> </a>
+                   <a href="slike/zile/najveci-zid/zid4.jpg" data-lightbox="galerija"> <img src="slike/zile/najveci-zid/zid4.jpg" alt="potporni zid"> </a>
                 </div>
 
                <div class="img-single">
@@ -29,7 +29,7 @@
                 </div>
 
                <div class="img-single">
-                    <a href="slike/zile/najveci-zid/zid6.jpg" data-lightbox="galerija"><img src="slike/zile/najveci-zid/zid7m.jpg" alt="potporni zid"></a>
+                    <a href="slike/zile/najveci-zid/zid7.jpg" data-lightbox="galerija"><img src="slike/zile/najveci-zid/zid7m.jpg" alt="potporni zid"></a>
                 </div>
 
                <div class="img-single">
