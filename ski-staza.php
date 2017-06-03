@@ -6,8 +6,7 @@
 <script type="text/javascript" src="js/lightbox.min.js"></script>
 <body>
 <div class="dugme">
-	<a href="galerija.php"><img class="dugme" src="slike/dugme.png" alt="Back button" style="width: 80px; height: 80px; margin-left: 30px; margin-top: 20px; position: absolute;"></a>
-
+	<a href="galerija.php"><img src="slike/dugme.png" alt="Back button"></a>
 </div>
 
     <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Ski staza - Nova Varos</h2>

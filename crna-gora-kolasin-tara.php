@@ -7,7 +7,6 @@
 <body>
 <div class="dugme">
 	<a href="galerija.php"><img src="slike/dugme.png" alt="Back button"></a>
-
 </div>
     <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Crna Gore - Kolasin - Tara</h2>
     <div class='galery-box'>
