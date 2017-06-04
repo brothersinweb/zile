@@ -73,7 +73,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
     </aside>
 -->  
         <div id="mid-div">
-          <h2 style="margin:60px 0 0 52%;color:white;position:absolute;">Pratite nas:</h2>
+          <h2>Pratite nas:</h2>
             <a href="#" target="_blank"><img src="slike/soc/facebook.png" alt="facebook" class="soc"></a>
 
             <div id="mid-line"></div>
