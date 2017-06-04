@@ -197,34 +197,9 @@ header nav ul li a:hover{
 /*============MEDIA ZA NAV BAR ===================*/
 @media screen and (max-width: 900px){
     header nav{
-        width: 20%;
-        background: rgba(10, 10, 10, 0.6);
-        position: relative;
-        top: 150px;
-        min-height: 50px;
+       display: none;
     }
 
-    header nav ul{
-        position: absolute;
-        bottom: 80px;
-        position: absolute;
-        width: 80px;
-        bottom: 12px;
-        display: none;
-    }
-
-    header nav ul li{
-        list-style: none;
-        display: block;
-        cursor: pointer;
-    }
-
-    header nav ul a{
-        color: aliceblue;
-        font-size: 14px;
-        text-decoration: none;
-        padding: 13px 25px 12px 25px;
-        }
 }
 
 /*========MEDIA ZA SVE OSTALO============*/
