@@ -8,12 +8,17 @@
 <script type="text/javascript" src="js/lightbox.min.js"></script>
 <body>
 
-<div class="dugme">
-	<a href="galerija.php"><img src="slike/dugme.png" alt="Back button"></a>
-</div>
-    <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Najveci zid Evrope</h2>
-    <div class='galery-box'>
+<div class='galery-box'>
+    <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Najveci zid</h2>
+    
        
+<div class="dugme">
+	<a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme1"></a>
+
+	<a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme2"></a>
+    
+    <a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme3"></a>
+</div>
             <div class="wrapper">
                  <ul>               
                <div class="img-single">

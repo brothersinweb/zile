@@ -80,13 +80,30 @@ header nav ul li a:hover{
     width:60%;
     height: 800px;
     margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-shadow: -25px -15px 30px #000;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: -35px -35px 30px #000;
     box-sizing: border-box;
     z-index: 1000;
     position: relative;
     overflow: hidden;
+}
+.conimg{
+    width:300px;
+    position:relative;
+    float: right;
+    margin: 20px;
+    border-radius: 10px;    
+}
+
+.conimg2{
+    width:300px;
+    position:relative;
+    float: left;
+    margin: 50px 20px;
+    border-radius: 10px;
+    bottom:20px;
+    left:0;
 }
 
 #mid-div{
@@ -118,10 +135,11 @@ header nav ul li a:hover{
     width: 15%;
     height: 700px;
     background: url(slike/poz3.jpg);
-    float: right;
-    margin-top: 20px;
+    position: absolute;
+    right: 5px;
+    margin-top: 50px;
     margin-right: 2%;
-    box-shadow: 15px -10px 25px #808080;
+    box-shadow: 0px 0px 25px #808080;
     overflow: hidden;
 }
 
@@ -130,6 +148,7 @@ header nav ul li a:hover{
     width: 100%;
     height: 100%;
     color: aqua;
+    line-height: 1.5;
 }
 
 .aside-right label{
@@ -148,19 +167,6 @@ header nav ul li a:hover{
     overflow:hidden;
 }
 
-#vidi-galeri{
-    float: right;
-    margin-right:15px;
-    margin-top:-10px;
-}
-
-#vidi-galeri button{
-    height: 40px;
-    width: 120px;
-    border-radius: 10px;
-    background: linear-gradient(gray, black);
-    color: aliceblue;
-}
 
 #Fleft{
     float: left;
@@ -188,56 +194,88 @@ header nav ul li a:hover{
     bottom: 0;
     
 }
+/*============MEDIA ZA NAV BAR ===================*/
+@media screen and (max-width: 900px){
+    header nav{
+        width: 20%;
+        background: rgba(10, 10, 10, 0.6);
+        position: relative;
+        top: 150px;
+        min-height: 50px;
+    }
 
-/*========KONTAKT CSS=============*/
+    header nav ul{
+        position: absolute;
+        bottom: 80px;
+        position: absolute;
+        width: 80px;
+        bottom: 12px;
+        display: none;
+    }
 
-#con{
-    width: 100%;
-    height: 700px;
-    margin: 0 auto;
+    header nav ul li{
+        list-style: none;
+        display: block;
+        cursor: pointer;
+    }
+
+    header nav ul a{
+        color: aliceblue;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 13px 25px 12px 25px;
+        }
 }
-#con iframe{
-    border:2px solid gray;
-    float:right;
-    margin:15px;
-}
+
+/*========MEDIA ZA SVE OSTALO============*/
 @media screen and (max-width: 800px) {
-    #con{
-        height: 500px;
-        width: 100%;
+    #container{
+    width:80%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: -15px -15px 15px #000;
+    box-sizing: border-box;
+    z-index: 1000;
+    position: relative;
+    overflow: hidden;
+    font-size: 0.75em;
+    }
+    .conimg{
+        width: 150px;
+    }
+    .conimg2{
+        display: none;
     }
     
-    #con iframe{
-        width: 300px;
-        height: 225px;
-        margin:5px;
-        
+    #Fleft{
+        float: left;
+        width: 33%;
+        height: 180px;
+        position:relative;
+        background: rgba(30,30,30, 1);
+        bottom: 0;
     }
-    
-#Fleft{
-    float: left;
-    width: 33%;
-    height: 180px;
-    position:relative;
-    background: rgba(30,30,30, 1);
-    bottom: 0;
-}
-#Fmid{
-    width: 34%;
-    height: 180px;
-    background: rgba(30,30,30, 1);
-    position:absolute;
-    left: 33%;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-}
-#Fright{
-    float: right;
-    width: 33%;
-    height: 180px;
-    position:relative;
-    background: rgba(30,30,30, 1);
-    bottom: 0;
-    
-}
+    #Fmid{
+        width: 34%;
+        height: 180px;
+        background: rgba(30,30,30, 1);
+        position:absolute;
+        left: 33%;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+    #Fright{
+        float: right;
+        width: 33%;
+        height: 180px;
+        position:relative;
+        background: rgba(30,30,30, 1);
+        bottom: 0;
+
+    }
+    #aside{
+    display: none;
+    }
 }

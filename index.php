@@ -40,9 +40,9 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
     
     <div id="container">
         <h2>neki text</h2>
-        <p style="font-size: 1.5em;word-wrap: break-word;margin: 35px;overflow: hidden; text-align: right; line-height: 32px;">
-        <img src="slike/zile/svasta/svasta30.jpg" alt="Zid uz reku" style="width:300px; position:relative; float: right;margin: 20px;border-radius: 10px;"/>
-               <img src="slike/zile/najveci-zid/zid23.jpg" alt="Zid uz reku" style="width:300px; position:absolute; float: left;margin: 20px;border-radius: 10px;bottom:20px;left:0;"/>
+        <p style="font-size: 1.5em;word-wrap: break-word;margin: 35px;overflow: hidden; text-align: right; line-height: 32px;line-height: 1.4;">
+        <img src="slike/zile/svasta/svasta30.jpg" class="conimg" alt="Zid uz reku" />
+               
         sadfsadfasdfasdfkjbhadsjkfngasfdjngoikadsfg
         asdfgljadsfn oiuhjofgihaosdf ohaosihef as
         fa ofhaoiurhfgoiauh fguah oerfjhaosduhfiauds fiaudhf
@@ -62,7 +62,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
             laksrjgflakenmrgplaknrpgkifnaerg
             asodngoaR GFAELERJN GAOIRJNFPOAIWJNRFGA
             
-         
+         <img src="slike/zile/najveci-zid/zid23.jpg" alt="Zid uz reku" class="conimg2" />
         </p>
     </div>
 
