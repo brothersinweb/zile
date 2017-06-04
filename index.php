@@ -1,7 +1,9 @@
 <?php
 include 'db.php';
-include 'function.php';
-session_start();
+$cookie_name = "user";
+$cookie_value = "user";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+
 ?>
 
 <?php include 'header.html'; ?>
