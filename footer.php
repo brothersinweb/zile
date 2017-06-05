@@ -16,11 +16,11 @@
     </div>
     
        <div id="Fmid">
-	   <p style="color: white; font-size: 25px; margin-left: 25px; margin-top: 50px;">
+	   <p style="color: white; font-size: 25px; margin-top: 50px; text-align: center;">
 	   Vlasnik Goran Nedeljković <br>
 	   Adresa: Resavska 6, Kraljevo <br>
 	   Telefon: 064/1325788 <br>
-	   Mejl: zilekameni@mts.rs <br>
+	   Mail: zilekameni@mts.rs <br>
 	   </p>
 	   </div>
     
