@@ -13,7 +13,14 @@
         </form>
     </div>
     
-       <div id="Fmid"></div>
+       <div id="Fmid">
+	   <p style="color: white; font-size: 25px; margin-left: 25px; margin-top: 70px;">
+	   Vlasnik Goran Nedeljković <br>
+	   Adresa: Resavska 6, Kraljevo <br>
+	   Telefon: 064/1325788 <br>
+	   Mejl: zilekameni@mts.rs <br>
+	   </p>
+	   </div>
     
     <div id="Fright">
         <p style="float:right;font-size:24px; color:white;position:relative;top:220px;margin:0 25px 15px;">Power by <a href="https://www.facebook.com/brothersinweb/" target="_blank" style="text-decoration:none; color:gray; font-size:28px;">BIW</a></p>

@@ -246,6 +246,12 @@ header nav ul li a:hover{
 
 /*========MEDIA ZA SVE OSTALO============*/
 @media screen and (max-width: 800px) {
+	.top-right h1 {
+		font-size: 50px;
+		margin-top: 55px;
+		margin-right: 15px;
+		
+	}
     #container{
         width:80%;
         height: 100%;
@@ -258,8 +264,14 @@ header nav ul li a:hover{
         position: relative;
         overflow: hidden;
         font-size: 0.75em;
+		
+	
     }
-    .conimg{
+    #container img {
+		width: 230px;
+		height: 150px;
+	}
+	.conimg{
         width: 150px;
     }
     .conimg2{
