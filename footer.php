@@ -1,7 +1,8 @@
 
 
 <footer>
-	<link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amiri|Carrois+Gothic+SC|Cinzel|Cormorant+Garamond|Cormorant+SC|IM+Fell+English+SC|Marcellus+SC|Mate+SC|Stardos+Stencil" rel="stylesheet">
+	
     <div id="Fleft">
         <form method="post" style="margin:10px 25px 0 25px;">
             <label for="name" style="color:white;">Ime:</label><br/><input type="text" name="name" placeholder="Ime"/><br/><br/>
@@ -15,7 +16,7 @@
     </div>
     
        <div id="Fmid">
-	   <p style="color: white; font-size: 25px; margin-left: 25px; margin-top: 70px;">
+	   <p style="color: white; font-size: 25px; margin-left: 25px; margin-top: 50px;">
 	   Vlasnik Goran Nedeljković <br>
 	   Adresa: Resavska 6, Kraljevo <br>
 	   Telefon: 064/1325788 <br>

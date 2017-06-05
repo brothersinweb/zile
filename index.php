@@ -9,6 +9,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
 <?php include 'header.html'; ?>
 
 <body>    
+<link href="https://fonts.googleapis.com/css?family=Amiri|Carrois+Gothic+SC|Cinzel|Cormorant+Garamond|Cormorant+SC|IM+Fell+English+SC|Marcellus+SC|Mate+SC|Stardos+Stencil" rel="stylesheet">
 <?php 
     /*NESTO NIJE KAKO TREBA*/
  if (isset($_SESSION['id'])) {
