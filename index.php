@@ -1,7 +1,9 @@
 <?php
 include 'db.php';
-include 'function.php';
-session_start();
+$cookie_name = "user";
+$cookie_value = "user";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+
 ?>
 
 <?php include 'header.html'; ?>
@@ -38,9 +40,9 @@ session_start();
     
     <div id="container">
         <h2>neki text</h2>
-        <p style="font-size: 1.5em;word-wrap: break-word;margin: 35px;overflow: hidden; text-align: right; line-height: 32px;">
-        <img src="slike/zile/svasta/svasta30.jpg" alt="Zid uz reku" style="width:300px; position:relative; float: right;margin: 20px;border-radius: 10px;"/>
-               <img src="slike/zile/najveci-zid/zid23.jpg" alt="Zid uz reku" style="width:300px; position:absolute; float: left;margin: 20px;border-radius: 10px;bottom:20px;left:0;"/>
+        <p style="font-size: 1.5em;word-wrap: break-word;margin: 35px;overflow: hidden; text-align: right; line-height: 32px;line-height: 1.4;">
+        <img src="slike/zile/svasta/svasta30.jpg" class="conimg" alt="Zid uz reku" />
+               
         sadfsadfasdfasdfkjbhadsjkfngasfdjngoikadsfg
         asdfgljadsfn oiuhjofgihaosdf ohaosihef as
         fa ofhaoiurhfgoiauh fguah oerfjhaosduhfiauds fiaudhf
@@ -60,7 +62,7 @@ session_start();
             laksrjgflakenmrgplaknrpgkifnaerg
             asodngoaR GFAELERJN GAOIRJNFPOAIWJNRFGA
             
-         
+         <img src="slike/zile/najveci-zid/zid23.jpg" alt="Zid uz reku" class="conimg2" />
         </p>
     </div>
 
@@ -71,7 +73,7 @@ session_start();
     </aside>
 -->  
         <div id="mid-div">
-          <h2 style="margin:60px 0 0 52%;color:white;position:absolute;">Pratite nas:</h2>
+          <h2>Pratite nas:</h2>
             <a href="#" target="_blank"><img src="slike/soc/facebook.png" alt="facebook" class="soc"></a>
 
             <div id="mid-line"></div>

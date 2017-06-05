@@ -6,13 +6,25 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/lightbox.min.js"></script>
 <body>
+<<<<<<< HEAD
 <div class="dugme">
 	<a href="galerija.php"><img class="dugme" src="slike/dugme.png" alt="Back button"></a>
+=======
+    
+>>>>>>> 81dabc0261dfc4c1bab5e0035b637aa473c98853
 
-</div>
+<div class='galery-box'>
     <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Crna Gore - Kolasin - Tara</h2>
-    <div class='galery-box'>
+    
        
+<div class="dugme">
+	<a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme1"></a>
+
+	<a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme2"></a>
+    
+    <a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme3"></a>
+</div>
+        
             <div class="wrapper">
                                
                <div class="img-single">
