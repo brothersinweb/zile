@@ -15,9 +15,10 @@
 <div class="dugme">
 	<a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme1"></a>
 
-	<a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme2"></a>
-    
+    <a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme2"></a>
+
     <a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme3"></a>
+
 </div>
         
             <div class="wrapper">
