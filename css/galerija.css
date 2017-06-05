@@ -113,11 +113,6 @@
     left: -5%;
 }
 /*================Dugme==================*/
-<<<<<<< HEAD
-
-
-	
-=======
 .dugme{
     position: absolute;
     left: 30px;
@@ -178,4 +173,3 @@
     50%{opacity: 0;}
     100%{opacity: 1;}
 }
->>>>>>> 81dabc0261dfc4c1bab5e0035b637aa473c98853
