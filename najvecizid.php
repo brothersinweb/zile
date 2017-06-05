@@ -1,7 +1,7 @@
 
 
 <?php include 'header.html'; ?>
-<link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amiri|Carrois+Gothic+SC|Cinzel|Cormorant+Garamond|Cormorant+SC|IM+Fell+English+SC|Marcellus+SC|Mate+SC|Stardos+Stencil" rel="stylesheet">
 <link rel="stylesheet" href="css/galerija.css">
 <link rel="stylesheet" href="css/lightbox.css">
 <link rel="stylesheet" href="css/dugme.css">
