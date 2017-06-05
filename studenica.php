@@ -11,17 +11,13 @@
 <div class='galery-box'>
     <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Studenica</h2>
     
-       
 <div class="dugme">
-<<<<<<< HEAD
-	<a href="galerija.php"><img class="dugme" src="slike/dugme.png" alt="Back button"></a>
-=======
 	<a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme1"></a>
->>>>>>> 81dabc0261dfc4c1bab5e0035b637aa473c98853
 
-	<a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme2"></a>
-    
+    <a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme2"></a>
+
     <a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme3"></a>
+
 </div>
             <div class="wrapper">
                                
