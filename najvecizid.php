@@ -1,6 +1,7 @@
 
 
 <?php include 'header.html'; ?>
+<link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
 <link rel="stylesheet" href="css/galerija.css">
 <link rel="stylesheet" href="css/lightbox.css">
 <link rel="stylesheet" href="css/dugme.css">

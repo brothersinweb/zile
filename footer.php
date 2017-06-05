@@ -1,6 +1,7 @@
 
 
 <footer>
+	<link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
     <div id="Fleft">
         <form method="post" style="margin:10px 25px 0 25px;">
             <label for="name" style="color:white;">Ime:</label><br/><input type="text" name="name" placeholder="Ime"/><br/><br/>

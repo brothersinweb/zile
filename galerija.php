@@ -9,7 +9,9 @@
     });
 
 </script>
-
+<header>
+<link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+</header>
 
 <div class="all-container">
     <div class="container">
