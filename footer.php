@@ -10,7 +10,7 @@
             <label for="email" style="color:white;">Email:</label><br/><input type="email" name="email" placeholder="example@some.com"/><br/><br/>
             
             <label for="message" style="color:white;">Poruka:</label><br/>
-            <textarea rows="5" cols="50" name="message"></textarea>
+            <textarea rows="2" cols="40" name="message"></textarea>
             <input type="submit" name="submit" value="Posalji">
         </form>
     </div>
