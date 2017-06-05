@@ -61,6 +61,7 @@ font-family: 'IM Fell English SC', serif;
 
 }
 
+}
 
 /*============galerija slika=============*/
 .galery-box{
@@ -116,6 +117,8 @@ font-family: 'IM Fell English SC', serif;
     top: -5%;
     left: -5%;
 }
+
+
 /*================Dugme==================*/
 .dugme{
     position: absolute;
