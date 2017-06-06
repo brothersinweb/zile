@@ -9,7 +9,7 @@
 <body>
 
 <div class='galery-box'>
-    <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Zica</h2>
+    <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Žiča</h2>
     
        
 <div class="dugme">

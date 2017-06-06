@@ -1,44 +1,44 @@
 * {
-font-family: 'IM Fell English SC', serif;
+    font-family: 'IM Fell English SC', serif;
 }
 
 .all-container{
-  width: 60%;
-  margin: 30px auto;
+    width: 60%;
+    margin: 30px auto;
    
 }
 
 .container {
-  position: relative;
-  width:280px; 
-  margin-left: 15px;
-  margin-top: 15px;
-  display: inline-block;
+    position: relative;
+    width:280px; 
+    margin-left: 15px;
+    margin-top: 15px;
+    display: inline-block;
    
 
 }
 
 .image {
-  display: block;
-  width: 100%;
-  height: auto;
-     border-radius: 10px;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 
 }
 
 .overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #A0A0A0;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  opacity: .7;
-  transition: .5s ease;
-     border-radius: 10px;
- 
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #A0A0A0;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    opacity: .7;
+    transition: .5s ease;
+    border-radius: 10px;
+
 }
 
 .container:hover .overlay{
@@ -49,18 +49,56 @@ font-family: 'IM Fell English SC', serif;
 
 .text {
     text-shadow: 2px 2px 5px black;
-  white-space: nowrap; 
-  color: black;
-  font-size: 23px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    white-space: nowrap; 
+    color: black;
+    font-size: 23px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
 
 }
 
+@media screen and (max-width: 800px) {
+    .all-container{
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .container {
+        position: relative;
+        width:220px; 
+        margin-left: 10px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .text {
+        text-shadow: 2px 2px 5px black;
+        white-space: nowrap; 
+        color: black;
+        font-size: 18px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+    }
+    
 }
 
 /*============galerija slika=============*/
@@ -121,7 +159,7 @@ font-family: 'IM Fell English SC', serif;
 
 /*================Dugme==================*/
 .dugme{
-    position: absolute;
+    position: relative;
     left: 30px;
     display: inline;
     top: 10px;

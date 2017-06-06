@@ -74,7 +74,7 @@ header nav ul a{
     color: aliceblue;
     font-size: 22px;
     text-decoration: none;
-    padding: 13px 25px 12px 25px;
+    padding: 10px 25px 12px 25px;
 }
 header nav ul li a:hover{
      background: rgba(10, 10, 10, 0.7);
