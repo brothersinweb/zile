@@ -179,7 +179,7 @@ header nav ul li a:hover{
 
 /*===============FOOTER===================*/
 form{
-    margin:10px 25px 0 25px;
+    margin:10px 15px 0 25px;
 }
 
 #Fleft{
@@ -199,8 +199,18 @@ form{
     left: 33%;
     border-left: 1px solid white;
     border-right: 1px solid white;
-    color: white;
 }
+#Fmid p{
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+#Fmid a{
+    color: cornsilk;
+    text-decoration: none;
+}
+
 #Fright{
     float: right;
     width: 33%;
@@ -213,18 +223,18 @@ form{
 @media screen and (max-width: 900px){
     form{
     display: none;
-}
+    }
 
-#Fleft{
-    display: none;
-}
-   
-#Fmid{
- display: none;
-}
-#Fright{
-   display: none;
-}
+    #Fleft{
+        display: none;
+    }
+
+    #Fmid{
+        display: none;
+    }
+    #Fright{
+        display: none;
+    }
 }
 /*============MEDIA ZA NAV BAR ===================*/
 @media screen and (max-width: 900px){
