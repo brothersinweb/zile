@@ -45,7 +45,6 @@ header h1{
 }
 
 header nav{
-
     background: rgba(10, 10, 10, 0.6);
     position: relative;
     top: 150px;
@@ -60,7 +59,6 @@ header nav ul{
     width: 100%;
     bottom: 12px;
     text-align: center;
-    display: none;
 }
 
 header nav ul li{
@@ -113,8 +111,13 @@ header nav ul li a:hover{
 #mid-div{
     height: 150px;
     width: 100%;
+    background-image: url(../slike/sgif.gif);
+    background-repeat:no-repeat;
+    background-position: left;
     background-color: black;
     margin: 55px 0;
+    position: relative;
+    overflow: hidden;
 }
 
 #mid-div h2{
@@ -177,9 +180,7 @@ header nav ul li a:hover{
 }
 
 /*===============FOOTER===================*/
-footer div{
-        display: inline;
-}
+
 
 form{
     margin:5px 0px 0 25px;
@@ -225,6 +226,7 @@ form{
 #Fmid a{
     color: cornsilk;
     text-decoration: none;
+    font-size: 22px;
 }
 
 #Fright{
@@ -238,7 +240,7 @@ form{
 }
 #Fright p{
     float:right;
-    font-size:24px;
+    font-size:18px;
     color:white;
     position:relative;
     top:220px;
@@ -247,7 +249,7 @@ form{
 #Fright a{
     text-decoration:none;
     color:gray;
-    font-size:28px;
+    font-size:22px;
 }
 #TFleft{
     display: none;
@@ -261,7 +263,7 @@ form{
     display: none;
 }
 /*===========MEDIA ZA FOOTER================*/
-@media screen and (max-width: 1370px){
+@media screen and (max-width: 900px){
     #Fright{
         display: none;
     }
@@ -274,13 +276,20 @@ form{
     
     h3{
         color: wheat;
-        text-align: center;
+        text-align: left;
+        position: relative;
+        margin-left: 55px;
+        padding-top:10px;
     }
-    
+    footer{
+        background: rgba(30,30,30, 1);
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
     #TFleft{
         display: block;
         background: rgba(30,30,30, 1);
-        padding: 15px;
         font-size: 18px;
     }
 
@@ -288,9 +297,8 @@ form{
         display: block;
         background: rgba(30,30,30, 1);
         color: wheat;
-        font-size: 16px;
-        padding: 15px;
-        text-align: center;
+        font-size: 18px;
+        margin-left: 35px;
     }
     #TFmid a{
         color: darkgrey;
@@ -301,12 +309,16 @@ form{
         display: block;
         background: rgba(30,30,30, 1);
         color: wheat;
-        padding: 15px;
-        position: relative;
+        padding-bottom: 15px;
     }
     #TFright a{
         text-decoration: none;
         color: dimgrey;
+        font-size: 16px;
+    }
+    #TFright p{
+        color: white;
+        font-size: 14px;
     }
     
 }

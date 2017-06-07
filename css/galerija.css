@@ -110,7 +110,7 @@
 }
 
 .wrapper{
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -159,21 +159,22 @@
 @media screen and (max-width: 800px) {
     .galery-box{
         overflow: hidden;
-        padding: 30px 0px;
-        position: relative;
     }
 
     .wrapper{
         width: 100%;
-        position: relative;
+        height: 100%;
+        display: inline-block;
+        margin: 10px 10px;
     }
+ 
 
     .img-single{
         width: 200px;
         height: 150px;
         position: relative;
         float: left;
-        margin: 20px 15px; 
+        padding: 10px 10px; 
     }
     .img-single:hover{
         width: 200px;

@@ -44,6 +44,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
         <p style="font-size: 1.5em;word-wrap: break-word;margin: 35px;overflow: hidden; text-align: right; line-height: 32px;line-height: 1.4;">
         <img src="slike/zile/svasta/svasta30.jpg" class="conimg" alt="Zid uz reku" />
                
+        ADASDASDASDASDSADASDASDASD
         sadfsadfasdfasdfkjbhadsjkfngasfdjngoikadsfg
         asdfgljadsfn oiuhjofgihaosdf ohaosihef as
         fa ofhaoiurhfgoiauh fguah oerfjhaosduhfiauds fiaudhf
@@ -78,8 +79,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
             <a href="#" target="_blank"><img src="slike/soc/facebook.png" alt="facebook" class="soc"></a>
 
             <div id="mid-line"></div>
-                
-            
+
         </div>
 
     <div id="container">

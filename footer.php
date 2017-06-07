@@ -25,33 +25,37 @@
     </div>
 
 <!--footer za telefon -->
-   
-       <div id="TFleft">
-           <h3>Pišite nam</h3>
-        <form method="post">
-            <label for="name">Ime:</label><br/><input type="text" name="name" placeholder="Ime"/><br/><br/>
-            
-            <label for="email">Email:</label><br/><input type="email" name="email" placeholder="example@some.com"/><br/><br/>
-            
-            <label for="message">Poruka:</label><br/>
-            <textarea  name="message"></textarea>
-            <input type="submit" name="submit" value="Posalji">
-        </form>
+<div class="foo">
+    <div id="TFleft">
+        <h3>Pišite nam</h3>
+            <form method="post">
+                <label for="name">Ime:</label><br/><input type="text" name="name" placeholder="Ime"/><br/><br/>
+
+                 <label for="email">Email:</label><br/><input type="email" name="email" placeholder="example@some.com"/><br/><br/>
+
+                <label for="message">Poruka:</label><br/>
+                <textarea  name="message"></textarea>
+                <input type="submit" name="submit" value="Posalji">
+            </form>
+        </div>
+
+        <div id="TFmid">
+            <addreres>
+                <p>
+                    Vlasnik Goran Nedeljković <br>
+                    Adresa: Resavska 6, Kraljevo <br>
+                    Telefon: 064/1325788 <br>
+                    Mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br>
+                </p>
+            </addreres>
+        </div>
+
+        <div id="TFright">
+            <p>Power by 
+                <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a>
+            </p>
     </div>
-    
-   <div id="TFmid">
-	   <addreres><p>
-           Vlasnik Goran Nedeljković <br>
-           Adresa: Resavska 6, Kraljevo <br>
-           Telefon: 064/1325788 <br>
-           Mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br></p>
-       </addreres>
-   </div>
-    
-    <div id="TFright">
-        <p>Power by <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a></p>
-    </div>
-    
+</div>
 </footer>
 
 
