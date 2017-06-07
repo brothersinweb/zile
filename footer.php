@@ -1,8 +1,4 @@
-
-
 <footer>
-<link href="https://fonts.googleapis.com/css?family=Amiri|Carrois+Gothic+SC|Cinzel|Cormorant+Garamond|Cormorant+SC|IM+Fell+English+SC|Marcellus+SC|Mate+SC|Stardos+Stencil" rel="stylesheet">
-	
     <div id="Fleft">
         <form method="post">
             <label for="name">Ime:</label><br/><input type="text" name="name" placeholder="Ime"/><br/><br/>
@@ -16,19 +12,46 @@
     </div>
     
    <div id="Fmid">
-	   <addreres>
-           <p>
+	   <addreres><p>
            Vlasnik Goran Nedeljković <br>
            Adresa: Resavska 6, Kraljevo <br>
            Telefon: 064/1325788 <br>
-           Mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br>
-           </p>
+           Mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br></p>
        </addreres>
    </div>
     
     <div id="Fright">
-        <p style="float:right;font-size:24px; color:white;position:relative;top:220px;margin:0 25px 15px;">Power by <a href="https://www.facebook.com/brothersinweb/" target="_blank" style="text-decoration:none; color:gray; font-size:28px;">BIW</a></p>
+        <p>Power by <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a></p>
     </div>
+
+<!--footer za telefon -->
+   
+       <div id="TFleft">
+           <h3>Pišite nam</h3>
+        <form method="post">
+            <label for="name">Ime:</label><br/><input type="text" name="name" placeholder="Ime"/><br/><br/>
+            
+            <label for="email">Email:</label><br/><input type="email" name="email" placeholder="example@some.com"/><br/><br/>
+            
+            <label for="message">Poruka:</label><br/>
+            <textarea  name="message"></textarea>
+            <input type="submit" name="submit" value="Posalji">
+        </form>
+    </div>
+    
+   <div id="TFmid">
+	   <addreres><p>
+           Vlasnik Goran Nedeljković <br>
+           Adresa: Resavska 6, Kraljevo <br>
+           Telefon: 064/1325788 <br>
+           Mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br></p>
+       </addreres>
+   </div>
+    
+    <div id="TFright">
+        <p>Power by <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a></p>
+    </div>
+    
 </footer>
 
 
