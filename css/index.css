@@ -177,6 +177,10 @@ header nav ul li a:hover{
     overflow:hidden;
 }
 
+/*===============FOOTER===================*/
+form{
+    margin:10px 25px 0 25px;
+}
 
 #Fleft{
     float: left;
@@ -185,6 +189,7 @@ header nav ul li a:hover{
     position:relative;
     background: rgba(30,30,30, 1);
     bottom: 0;
+    color: white;
 }
 #Fmid{
     width: 34%;
@@ -194,6 +199,7 @@ header nav ul li a:hover{
     left: 33%;
     border-left: 1px solid white;
     border-right: 1px solid white;
+    color: white;
 }
 #Fright{
     float: right;
@@ -202,7 +208,23 @@ header nav ul li a:hover{
     position:relative;
     background: rgba(30,30,30, 1);
     bottom: 0;
-    
+    color: white;
+}
+@media screen and (max-width: 900px){
+    form{
+    display: none;
+}
+
+#Fleft{
+    display: none;
+}
+   
+#Fmid{
+ display: none;
+}
+#Fright{
+   display: none;
+}
 }
 /*============MEDIA ZA NAV BAR ===================*/
 @media screen and (max-width: 900px){

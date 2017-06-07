@@ -4,13 +4,13 @@
 <link href="https://fonts.googleapis.com/css?family=Amiri|Carrois+Gothic+SC|Cinzel|Cormorant+Garamond|Cormorant+SC|IM+Fell+English+SC|Marcellus+SC|Mate+SC|Stardos+Stencil" rel="stylesheet">
 	
     <div id="Fleft">
-        <form method="post" style="margin:10px 25px 0 25px;">
-            <label for="name" style="color:white;">Ime:</label><br/><input type="text" name="name" placeholder="Ime"/><br/><br/>
+        <form method="post">
+            <label for="name">Ime:</label><br/><input type="text" name="name" placeholder="Ime"/><br/><br/>
             
-            <label for="email" style="color:white;">Email:</label><br/><input type="email" name="email" placeholder="example@some.com"/><br/><br/>
+            <label for="email">Email:</label><br/><input type="email" name="email" placeholder="example@some.com"/><br/><br/>
             
-            <label for="message" style="color:white;">Poruka:</label><br/>
-            <textarea rows="2" cols="40" name="message"></textarea>
+            <label for="message">Poruka:</label><br/>
+            <textarea  name="message"></textarea>
             <input type="submit" name="submit" value="Posalji">
         </form>
     </div>
