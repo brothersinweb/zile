@@ -18,8 +18,11 @@
            Phone: 064/1325788 <br>
            E-mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br></p>
        </address>
-	   <p>Powered by <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a></p>
-   </div>
+	   
+       <div class="powerby">
+            <p>Powered by <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a></p>
+        </div>
+    </div>
     
    
 
@@ -47,7 +50,7 @@
                     E-mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br>
                 </p>
             </address>
-			<p>Powered by 
+			<p class="powerby">Powered by 
                 <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a>
             </p>
     </div>
@@ -59,7 +62,7 @@
 
 <?php
 
-include 'db.php';
+include '../db.php';
 
     if(isset($_POST['submit'])){
         
