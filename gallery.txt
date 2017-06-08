@@ -33,7 +33,7 @@
 	<div class="container">
       <a href="najvecizid.php"><img src="slike/zile/najveci-zid/zid23.jpg" alt="Zid" class="image">
             <div class="overlay">
-                <div class="text">Najveći zid</div>
+                <div class="text">Najveci zid</div>
             </div> 
         </a>
     </div>
@@ -42,7 +42,7 @@
 	<div class="container">
       <a href="regulacija-recnih-tokova.php"><img src="slike/zile/regulacija-recnih-tokova/reka4.jpg" alt="Regulacija recnih tokova" class="image">
             <div class="overlay">
-                <div class="text">Regulacija rečnih tokova</div>
+                <div class="text">Regulacija recnih tokova</div>
             </div> 
         </a>
     </div>
@@ -50,7 +50,7 @@
 	<div class="container">
       <a href="ski-staza.php"><img src="slike/zile/ski-staza-nova-varos/skistaza3.jpg" alt="Ski staza" class="image">
             <div class="overlay">
-                <div class="text">Ski staza - Nova Varoš</div>
+                <div class="text">Ski staza - Nova Varos</div>
             </div> 
         </a>
     </div>
@@ -66,7 +66,7 @@
 	<div class="container">
       <a href="zica.php"><img src="slike/zile/zica/zica.jpg" alt="Zica" class="image">
             <div class="overlay">
-                <div class="text">Žiča</div>
+                <div class="text">Zica</div>
             </div> 
         </a>
     </div>

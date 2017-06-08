@@ -9,7 +9,7 @@
 <body>
 
 <div class='galery-box'>
-    <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Regulacija recnih tokova</h2>
+    <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Regulacija rečnih tokova</h2>
     
        
 <div class="dugme">

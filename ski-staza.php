@@ -8,7 +8,7 @@
 <script type="text/javascript" src="js/lightbox.min.js"></script>
 <body>
 <div class='galery-box'>
-    <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Ski staza - Nova Varos</h2>
+    <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Ski staza - Nova Varoš</h2>
     
        
 <div class="dugme">

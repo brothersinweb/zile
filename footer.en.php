@@ -1,57 +1,57 @@
 <footer>
     <div id="Fleft">
         <form method="post">
-            <label for="name">Ime:</label><br/><input type="text" name="name" placeholder="Ime"/><br/><br/>
+            <label for="name">Name:</label><br/><input type="text" name="name" placeholder="Name"/><br/><br/>
             
             <label for="email">Email:</label><br/><input type="email" name="email" placeholder="example@some.com"/><br/><br/>
             
-            <label for="message">Poruka:</label><br/>
+            <label for="message">Message:</label><br/>
             <textarea  name="message"></textarea>
-            <input type="submit" name="submit" value="Posalji">
+            <input type="submit" name="submit" value="Send">
         </form>
     </div>
     
    <div id="Fmid">
-	   <addreres><p>
-           Vlasnik Goran Nedeljković <br>
-           Adresa: Resavska 6, Kraljevo <br>
-           Telefon: 064/1325788 <br>
-           Mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br></p>
-       </addreres>
+	   <address><p>
+           Owner Goran Nedeljković <br>
+           Address: Resavska 6, Kraljevo <br>
+           Phone: 064/1325788 <br>
+           E-mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br></p>
+       </address>
    </div>
     
     <div id="Fright">
-        <p>Power by <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a></p>
+        <p>Powered by <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a></p>
     </div>
 
 <!--footer za telefon -->
 <div class="foo">
     <div id="TFleft">
-        <h3>Pišite nam</h3>
+        <h3>Contact us</h3>
             <form method="post">
-                <label for="name">Ime:</label><br/><input type="text" name="name" placeholder="Ime"/><br/><br/>
+                <label for="name">Name:</label><br/><input type="text" name="name" placeholder="Name"/><br/><br/>
 
-                 <label for="email">Email:</label><br/><input type="email" name="email" placeholder="example@some.com"/><br/><br/>
+                 <label for="email">E-mail:</label><br/><input type="email" name="email" placeholder="example@some.com"/><br/><br/>
 
-                <label for="message">Poruka:</label><br/>
+                <label for="message">Message:</label><br/>
                 <textarea  name="message"></textarea>
-                <input type="submit" name="submit" value="Posalji">
+                <input type="submit" name="submit" value="Send">
             </form>
         </div>
 
         <div id="TFmid">
-            <addreres>
+            <address>
                 <p>
-                    Vlasnik Goran Nedeljković <br>
-                    Adresa: Resavska 6, Kraljevo <br>
-                    Telefon: 064/1325788 <br>
-                    Mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br>
+                    Owner Goran Nedeljković <br>
+                    Address: Resavska 6, Kraljevo <br>
+                    Phone: 064/1325788 <br>
+                    E-mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br>
                 </p>
-            </addreres>
+            </address>
         </div>
 
         <div id="TFright">
-            <p>Power by 
+            <p>Powered by 
                 <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a>
             </p>
     </div>

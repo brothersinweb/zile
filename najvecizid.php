@@ -11,7 +11,7 @@
 <body>
 
 <div class='galery-box'>
-    <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Najveci zid</h2>
+    <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Najveći zid</h2>
     
        
 <div class="dugme">

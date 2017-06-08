@@ -10,7 +10,7 @@
 
 
 <div class='galery-box'>
-    <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Crna Gore - Kolasin - Tara</h2>
+    <h2 style="text-align:center;margin:0 auto;color:#333; padding:14px;">Crna Gore - Kolašin - Tara</h2>
     
        
 <div class="dugme">

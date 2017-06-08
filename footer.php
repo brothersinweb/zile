@@ -12,16 +12,16 @@
     </div>
     
    <div id="Fmid">
-	   <addreres><p>
+	   <address><p>
            Vlasnik Goran Nedeljković <br>
            Adresa: Resavska 6, Kraljevo <br>
            Telefon: 064/1325788 <br>
            Mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br></p>
-       </addreres>
+       </address>
    </div>
     
     <div id="Fright">
-        <p>Power by <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a></p>
+        <p>Powered by <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a></p>
     </div>
 
 <!--footer za telefon -->
@@ -51,7 +51,7 @@
         </div>
 
         <div id="TFright">
-            <p>Power by 
+            <p>Powered by 
                 <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a>
             </p>
     </div>

@@ -6,7 +6,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
 
 ?>
 
-<?php include 'header.html'; ?>
+<?php include 'header.en.html'; ?>
 
 <body>    
 <link href="https://fonts.googleapis.com/css?family=Amiri|Carrois+Gothic+SC|Cinzel|Cormorant+Garamond|Cormorant+SC|IM+Fell+English+SC|Marcellus+SC|Mate+SC|Stardos+Stencil" rel="stylesheet">
@@ -19,7 +19,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
  }  
 ?>
      <aside id="aside">
-        <div class="aside-right"><label>Zanimljivo</label>
+        <div class="aside-right"><label style="text-align: left;">Interesting facts</label>
             <p>tkuhgkibhkijhbliuhbib b bkjb
                 khvjhjbnklmnbhygiujnkn
                 khbkjhbkbkjbkjhb
@@ -40,9 +40,9 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
     </aside>
     
     <div id="container">
-        <h2>neki text</h2>
+        <h2>some text</h2>
         <p style="font-size: 1.5em;word-wrap: break-word;margin: 35px;overflow: hidden; text-align: right; line-height: 32px;line-height: 1.4;">
-        <img src="slike/zile/svasta/svasta30.jpg" class="conimg" alt="Zid uz reku" />
+        <img src="slike/zile/svasta/svasta30.jpg" class="conimg" alt="wall near river" />
                
         ADASDASDASDASDSADASDASDASD
         sadfsadfasdfasdfkjbhadsjkfngasfdjngoikadsfg
@@ -75,7 +75,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
     </aside>
 -->  
         <div id="mid-div">
-          <h2>Pratite nas:</h2>
+          <h2>Follow us:</h2>
             <a href="#" target="_blank"><img src="slike/soc/facebook.png" alt="facebook" class="soc"></a>
 
             <div id="mid-line"></div>
@@ -83,10 +83,10 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
         </div>
 
     <div id="container">
-        <h4>neki text</h4>
+        <h4>some text</h4>
     </div>
     
         
-<?php include 'footer.php'; ?>
+<?php include 'footer.en.php'; ?>
 </body>
 </html>

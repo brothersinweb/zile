@@ -1,5 +1,5 @@
 <?php
-    include 'header.html';
+    include 'header.en.html';
 ?>
 <link href="https://fonts.googleapis.com/css?family=Amiri|Carrois+Gothic+SC|Cinzel|Cormorant+Garamond|Cormorant+SC|IM+Fell+English+SC|Marcellus+SC|Mate+SC|Stardos+Stencil" rel="stylesheet">
 <body>
@@ -8,5 +8,5 @@
 </body>
 
 <?php
-    include 'footer.php';
+    include 'footer.en.php';
 ?>
