@@ -18,11 +18,10 @@
            Telefon: 064/1325788 <br>
            Mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br></p>
        </address>
+	    <p>Powered by <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a></p>
    </div>
     
-    <div id="Fright">
-        <p>Powered by <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a></p>
-    </div>
+   
 
 <!--footer za telefon -->
 <div class="foo">
@@ -48,13 +47,12 @@
                     Mail:<a href="mailto:zilekameni@mts.rs"> zilekameni@mts.rs</a> <br>
                 </p>
             </addreres>
-        </div>
-
-        <div id="TFright">
-            <p>Powered by 
+			            <p>Powered by 
                 <a href="https://www.facebook.com/brothersinweb/" target="_blank">BIW</a>
             </p>
-    </div>
+        </div>
+
+     
 </div>
 </footer>
 

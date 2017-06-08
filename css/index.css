@@ -204,7 +204,7 @@ form{
 }
 
 #Fmid{
-    width: 55%;
+    width: 70%;
     height: 280px;
     background-image: url(../slike/sgif.gif);
     position:absolute;
@@ -224,15 +224,7 @@ form{
     font-size: 22px;
 }
 
-#Fright{
-    float: right;
-    width: 15%;
-    height: 280px;
-    position:relative;
-    background-image: url(../slike/sgif.gif);
-    bottom: 0;
-    color: white;
-}
+
 #Fright p{
     float:right;
     font-size:18px;
@@ -293,19 +285,14 @@ form{
        background-image: url(../slike/sgif.gif);
         color: wheat;
         font-size: 18px;
-        margin-left: 35px;
+       
     }
     #TFmid a{
         color: darkgrey;
         text-decoration: none;
     }
 
-    #TFright{
-        display: block;
-        background-image: url(../slike/sgif.gif);
-        color: wheat;
-        padding-bottom: 15px;
-    }
+    
     #TFright a{
         text-decoration: none;
         color: dimgrey;
