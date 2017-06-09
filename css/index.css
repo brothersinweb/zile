@@ -175,6 +175,15 @@ header nav ul li a:hover{
     overflow:hidden;
 }
 
+.prvastrana { 
+	font-size: 1.2em;
+	word-wrap: break-word;
+	margin: 20px;
+	overflow: hidden;
+	text-align: right;
+	line-height: 30px;
+	line-height: 1.4;
+}
 /*===============FOOTER===================*/
 
 
