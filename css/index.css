@@ -45,17 +45,18 @@ header nav{
     position: relative;
     top: 150px;
     min-height: 50px;
+    
 }
 
 header nav ul{
     position: absolute;
     bottom: 0;
     margin: 0 auto;
-    position: absolute;
     width: 100%;
-    bottom: 12px;
+    bottom: 0px;
     text-align: center;
-      display: none;
+    overflow: hidden;
+    padding: 10px;
 }
 
 header nav ul li{
@@ -64,14 +65,23 @@ header nav ul li{
     cursor: pointer;
 }
 
-header nav ul a{
+header nav ul li a{
     color: aliceblue;
     font-size: 22px;
     text-decoration: none;
-    padding: 10px 25px 12px 25px;
+    padding: 10px 25px 9px 25px;
+    position: relative;
+    bottom: 50px;
 }
 header nav ul li a:hover{
      background: rgba(10, 10, 10, 0.7);
+}
+
+
+@media screen and (max-width: 1200px){
+    header nav{
+        display: none;
+    }
 }
 
 #container{
@@ -311,50 +321,7 @@ form{
     }
     
 }
-    
-/*============MEDIA ZA NAV BAR ===================*/
-@media screen and (max-width: 900px){
-    header nav{
-        width: 40px;
-        background: rgba(10, 10, 10, 0);
-        background-image: url('../slike/menu.png');
-        background-size: cover;
-        position: relative;
-        top: 150px;
-        min-height: 50px;
-        z-index: 1111;
-        
-    }
 
-    header nav ul{
-        top: 50px;
-        width: 220px;
-        height: 250px;
-        background: rgba(10, 10, 10, 1);
-
-    }
-
-    header nav ul li{
-        list-style: none;
-        display: block;
-        text-align: left;
-        margin-left: -30px;
-        cursor: pointer;
-        padding: 6px 30px 6px 5px;
-        border-bottom: 1px solid white;
-    }
-
-    header nav ul a{
-        color: aliceblue;
-        font-size: 18px;
-        text-decoration: none;
-        padding: 6px 30px 6px 5px;
-    }
-    header nav ul li a:hover{
-        background: rgba(200, 200, 200, 1);
-        color: black;
-    }
-}
 
 /*========MEDIA ZA SVE OSTALO============*/
 @media screen and (max-width: 800px) {
