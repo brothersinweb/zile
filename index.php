@@ -41,7 +41,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
     
     <div id="container">
         <h2>neki text</h2>
-        <p style="font-size: 1.5em;word-wrap: break-word;margin: 35px;overflow: hidden; text-align: right; line-height: 32px;line-height: 1.4;">
+        <p class="prvastrana">
         <img src="slike/zile/svasta/svasta30.jpg" class="conimg" alt="Zid uz reku" />
                
         ADASDASDASDASDSADASDASDASD
