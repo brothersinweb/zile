@@ -78,9 +78,46 @@ header nav ul li a:hover{
 }
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 960px){
     header nav{
-        display: none;
+        background: rgba(10, 10, 10, 0.8);
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        top: 200px;
+        z-index: 11111;
+    }
+
+    header nav ul{
+        position: absolute;
+        text-align: left;
+        overflow: hidden;
+        top:0px;
+    }
+
+    header nav ul li{
+        list-style: none;
+        display:block;
+        cursor: pointer;
+        position: relative;
+        top: 0;
+        padding-bottom: 17px;
+        padding-top: 5px;
+        border: 1px solid red;
+        margin: -10px 0 0 -10px;
+    }
+
+    header nav ul li a{
+        color: aliceblue;
+        font-size: 18px;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        padding-bottom: 17px;
+        padding-top: 66px;
+    }
+    header nav ul li a:hover{
+         background: rgba(10, 10, 10, 0.7);
     }
 }
 
