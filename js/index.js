@@ -1,5 +1,11 @@
 $(document).ready(function(){
-        $('nav').hover(function(){
-        $('#navul').slideToggle(100,"swing");
-    });
+        $('nav').mouseenter(function(){
+            $('ul').show('fast');
+        });
+    $('nav').mouseleave(function(){
+            $('ul').hide('fasr');
+        });
+
+
 });
+
