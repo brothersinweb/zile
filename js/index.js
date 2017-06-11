@@ -9,15 +9,19 @@ $(document).ready(function(){
          $('.nava').animate({bottom:"50px"},50);
      });
     }else{
-         $('nav').click(function(){
-             $('.nava').toggle(function(){
-         $('.nava').animate({bottom:"0px"},100);
-     });
-    });
-        /*$('nav').toggle(function(){
-         $('.nava').animate({bottom:"50px"},50);
-        });*/
-    }
-
+            if($('nav').position("-180px")){
+                $('.menu').click(function(){
+                    $(this).hide(1);
+                    $('nav').animate({left:"0px"},100); 
+                    $('.menux').show(100);
+                });
+            };
+        $('.menux').click(function(){
+            $(this).hide(100);
+            $('nav').animate({left:"-180px"},100);
+            $('.menu').show(100);
+        });
+    };
 });
 
+        

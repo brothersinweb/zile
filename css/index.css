@@ -77,15 +77,22 @@ header nav ul li a:hover{
      background: rgba(10, 10, 10, 0.7);
 }
 
+.menu{
+    display: none;
+}
+.menux{
+    display: none;
+}
 
 @media screen and (max-width: 960px){
     header nav{
-        background: rgba(10, 10, 10, 0.8);
+        background: rgba(50, 50, 50, .9);
         position: absolute;
-        width: 200px;
-        height: 300px;
+        width: 180px;
+        height: 280px;
         top: 200px;
         z-index: 11111;
+        left: -180px;
     }
 
     header nav ul{
@@ -101,9 +108,8 @@ header nav ul li a:hover{
         cursor: pointer;
         position: relative;
         top: 0;
-        padding-bottom: 17px;
-        padding-top: 5px;
-        border: 1px solid red;
+        padding-bottom: 15px;
+        padding-top: 15px;
         margin: -10px 0 0 -10px;
     }
 
@@ -113,11 +119,34 @@ header nav ul li a:hover{
         text-decoration: none;
         position: relative;
         top: 0;
-        padding-bottom: 17px;
-        padding-top: 66px;
+        padding:-25px 10px 25px -20px;
+    }
+    header nav ul li:hover{
+         background: rgba(5, 5, 5, 0.9);
     }
     header nav ul li a:hover{
-         background: rgba(10, 10, 10, 0.7);
+         background: rgba(5, 5, 5, 0);
+    }
+    .menu{
+        width: 35px;
+        height: 35px;
+        background: ;
+        position: absolute;
+        top: 205px;
+        left: 5px;
+        display: inline;
+        z-index: 9999;
+        cursor: pointer;
+    }
+    .menux{
+        width: 45px;
+        height: 45px;
+        background: ;
+        position: absolute;
+        top: 200px;
+        left: 180px;
+        z-index: 9999;
+        cursor: pointer;
     }
 }
 
