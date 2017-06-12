@@ -21,7 +21,6 @@
     <a href="galerija.php"><img src="slike/strelica.png" alt="Back button" class="dugme3"></a>
 
 </div>
-        
             <div class="wrapper">
                                
                <div class="img-single">
@@ -59,11 +58,9 @@
                <div class="img-single">
                     <a href="slike/zile/crna-gora-kolasin-tara/cg9.jpg" data-lightbox="galerija"><img src="slike/zile/crna-gora-kolasin-tara/cg9.jpg" alt="potporni zid"> </a>
                 </div>
-
+            </div>
                
             </div>
             
-        </div>
     <?php include 'footer.php'; ?>
 </body>
-</html>
