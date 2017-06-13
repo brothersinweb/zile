@@ -88,11 +88,11 @@ header nav ul li a:hover{
     header nav{
         background: rgba(50, 50, 50, .9);
         position: absolute;
-        width: 180px;
+        width: 220px;
         height: 280px;
         top: 200px;
         z-index: 11111;
-        left: -180px;
+        left: -220px;
     }
 
     header nav ul{
@@ -139,12 +139,12 @@ header nav ul li a:hover{
         cursor: pointer;
     }
     .menux{
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
         background: ;
         position: absolute;
         top: 200px;
-        left: 180px;
+        left: 220px;
         z-index: 9999;
         cursor: pointer;
     }
@@ -403,7 +403,7 @@ form{
         width:80%;
         height: 100%;
         margin: 0 auto;
-        margin-top: 30px;
+        margin-top: 60px;
         margin-bottom: 10px;
         box-shadow: -15px -15px 15px #000;
         box-sizing: border-box;

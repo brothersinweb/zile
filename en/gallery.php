@@ -13,7 +13,8 @@
 
 <div class="all-container">
     <div class="container">
-        <a href="crna-gora-kolasin-tara.en.php"><img src="../slike/zile/crna-gora-kolasin-tara/cg1.jpg" alt="Kolasin-Tara" class="image">
+        <a href="crna-gora-kolasin-tara.en.php">
+            <img src="../slike/zile/crna-gora-kolasin-tara/cg1.jpg" alt="Kolasin-Tara" class="image">
             <div class="overlay">
                 <div class="text">Crna Gora</div>
             </div> 

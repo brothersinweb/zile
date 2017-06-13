@@ -6,7 +6,6 @@
     width: 80%;
     position: relative;
     margin:50px auto;
-    border: 1px solid red;
     text-align: center;
 }
 
@@ -109,7 +108,6 @@
 
 .wrapper{
     box-sizing: border-box;
-    border: 1px solid red;
     width: 100%;
     margin: 25px auto;
     text-align: center;
@@ -156,7 +154,6 @@
         position: relative;
         width: 100%;
         margin: 0 auto;
-        border: 1px solid red;
     }
 
     .wrapper{
@@ -172,7 +169,6 @@
         display: inline-block;
         position: relative;
         margin: 10px 10px;
-        border: 1px solid red;
     }
 
     .img-single img{
@@ -265,42 +261,42 @@
 
 @media screen and (max-width: 800px) {
     .dugme1{
-    width: 35px;
-    height: 35px;
-    margin: 0 -20px;
-    opacity: 1;
-    margin-bottom: 0;
-     -webkit-animation-name: dugme1; 
-    -webkit-animation-duration: infinite; 
-    animation-name: dugme1;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: .8s;
-}
-.dugme2{
-    width: 35px;
-    height: 35px;
-    opacity: 1;
-    margin: 0 -10px;
-    margin-bottom: 0;
-     -webkit-animation-name: dugme2; 
-    -webkit-animation-duration: infinite; 
-    animation-name: dugme2;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: .4s;
-}
-.dugme3{
-    width: 35px;
-    height: 35px;
-    margin: 0 0x ;
-    opacity: 1;
-    margin-bottom: 0;
-    -webkit-animation-name: dugme3; 
-    -webkit-animation-duration: infinite; 
-    animation-name: dugme3;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    
-}
+        width: 35px;
+        height: 35px;
+        margin: 0 -20px;
+        opacity: 1;
+        margin-bottom: 0;
+         -webkit-animation-name: dugme1; 
+        -webkit-animation-duration: infinite; 
+        animation-name: dugme1;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: .8s;
+    }
+    .dugme2{
+        width: 35px;
+        height: 35px;
+        opacity: 1;
+        margin: 0 -10px;
+        margin-bottom: 0;
+         -webkit-animation-name: dugme2; 
+        -webkit-animation-duration: infinite; 
+        animation-name: dugme2;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: .4s;
+    }
+    .dugme3{
+        width: 35px;
+        height: 35px;
+        margin: 0 0x ;
+        opacity: 1;
+        margin-bottom: 0;
+        -webkit-animation-name: dugme3; 
+        -webkit-animation-duration: infinite; 
+        animation-name: dugme3;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+    }
 }
